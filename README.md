@@ -23,6 +23,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Overview
 
+To set the Polygon API key, create a `.env.local` file in the root of your project and add the following line:
+
+```bash
+POLYGON_API_KEY="REPLACE_WITH_KEY"
+```
+
 The main files are `app/(default)/dashboard/page.tsx`, `components/tabs.tsx`, `components/market.tsx`, and `components/utils/use-polygon-websocket.ts`.
 
 The application is designed to have it's context provided to the children components through parameters.
